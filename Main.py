@@ -53,6 +53,12 @@ def Main():
             print("Not Founded This Music!!!")
             os._exit(4456)
         ask_openholoearth = fd.askopenfilename(title="Please Find Holoearth.exe", filetypes=[("HoloearthProcess", "Holoearth.exe")])
+        if(pth.Path(ask_openholoearth).is_file()):
+            print("[+] Process is Founded Successfully!!!")
+        else:
+            print("[-] Process is not Founded or You Clicked Cancel!!!")
+            time.sleep(10)
+            os._exit(334)
         startupinfo = STARTUPINFO()
     processinfo = PROCESS_INFORMATION()
     ctypes_createprocess = ctypes.WinDLL("Kernel32")
@@ -62,6 +68,7 @@ def Main():
     startupinfo.cb = sizeof(startupinfo)
     if(ctypes_createprocess.CreateProcessA(bytes(ask_openholoearth, "UTF-8"), None, None, None, None, 0, None, None, byref(startupinfo), byref(processinfo))):
         print("[+] Process Has Been Created!!!")
+        print("[+] PID: " + str(processinfo.dwProcessId))
     time.sleep(74)
     HoloearthPymem = Pymem("Holoearth.exe")
     processhandle_holoearth = HoloearthPymem.process_handle
