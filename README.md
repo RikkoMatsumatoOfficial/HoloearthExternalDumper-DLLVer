@@ -1,6 +1,6 @@
 # HoloearthExternalDumper-DLLVer
 
-This is My Fist Dumper(External Version, but I'm use My DLL Dumper for Holoearth!!!) for Game Holoearth... So Enjoy to use this!!!
+This is My Fist Dumper(External Version, but I'm use My DLL Dumper for Holoearth!!!)... It's Game Holoearth... So Enjoy to use this!!!
 
 ## Donations
 
