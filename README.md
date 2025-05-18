@@ -1,6 +1,6 @@
 # HoloearthExternalDumper-DLLVer
 
-This is My Fist Dumper(External Version, but I'm use My DLL Dumper for Holoearth!!!)... It's Game Holoearth... So Enjoy to use this!!!
+This is My Fist Dumper(External Version, but I'm use My DLL for Holoearth!!!)... It's Game Holoearth... So Enjoy to use this!!!
 > [!WARNING]
 > If it's Detected, you can delete KS_Diagnostics_Process.dll or rename from Plugins folder!!! Thanks for Reading this!!!
 
