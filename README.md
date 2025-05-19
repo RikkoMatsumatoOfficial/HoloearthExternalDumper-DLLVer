@@ -2,7 +2,7 @@
 
 This is My Fist Dumper(External Version, but I'm use My DLL for Holoearth!!!)... It's Game Holoearth... So Enjoy to use this!!!
 > [!WARNING]
-> If it's Detected, you can delete KS_Diagnostics_Process.dll or rename from Plugins folder!!! Thanks for Reading this!!!
+> If it's Detected, you can delete or rename KS_Diagnostics_Process.dll from Plugins folder!!! Thanks for Reading this!!!
 
 ## Donations
 
